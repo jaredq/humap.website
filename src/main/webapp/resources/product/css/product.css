@@ -1,0 +1,165 @@
+@CHARSET "UTF-8";
+
+#section {
+	overflow: auto;
+}
+
+#sect-title {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#sect-title h3 {
+	padding-top: 10px;
+	font-size: 20px;
+	color: #2863B9;
+}
+
+#organ-list {
+	width: 150px;
+	float: left;
+	padding-left: 20px;
+}
+
+#main-list {
+	margin-right: 15px;
+	width: 745px;
+	float: right;
+	font-size: 14px;
+	overflow: auto;
+}
+
+#main-list .ttl {
+	float: left;
+	width: 140px;
+	text-align: right;
+}
+
+#main-list .cnt {
+	float: left;
+	width: 550px;
+	margin-left: 10px;
+}
+
+#main-list .cnt div {
+	float: left;
+	margin-right: 5px;
+}
+
+#main-list .cnt .na a span {
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
+#main-list .cnt .na a:hover span {
+	color: white;
+	background-color: blue;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-image: url("../../global/images/p.png");
+}
+
+#main-list .cnt .ac a span {
+	padding-left: 5px;
+	padding-right: 20px;
+	color: white;
+	background-color: blue;
+}
+
+#main-list .cnt .ac a:hover span {
+	background-repeat: no-repeat;
+	background-position: right;
+	background-image: url("../../global/images/d.png");
+}
+
+#search-bar {
+	
+}
+
+#search-bar span {
+	padding-top: 6px;
+}
+
+#search-key {
+	
+}
+
+#spec-bar {
+	border: 1px dotted #785;
+	height: 160px;
+	margin: 10px 0px;
+	padding: 0 10px;
+}
+
+#cores-case-list {
+	margin: 3px auto;
+	padding: 10px 0px;
+	clear: both;
+}
+
+#path-diag-list {
+	margin: 3px auto;
+	padding: 10px 0px;
+	clear: both;
+}
+
+#infor-list {
+	margin: 3px auto;
+	padding: 10px 0px;
+	clear: both;
+	border-top: 1px solid #AAA;
+}
+
+#result-list {
+	clear: both;
+}
+
+#result-list table .tl {
+	color: white;
+	font-weight: bold;
+	padding: 4px 0px;
+}
+
+#result-list table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+
+#result-nav {
+	text-align: center;
+	font-size: 16px;
+}
+
+#search-key {
+	border-bottom: 1px solid;
+}
+
+#detail-list {
+	margin-right: 15px;
+	width: 745px;
+	float: right;
+}
+
+#detail-list table {
+	width: 100%;
+}
+
+#detail-table .ttl {
+	text-align: right;
+	padding: 5px 4px;
+	padding-right: 4px;
+}
+
+#detail-table .cnt {
+	padding: 5px 4px;
+	padding-left: 4px;
+}
+
+#detail-table .r1 {
+	background-color: #EEE;
+}
+
+#detail-table .r2 {
+	background-color: #FFF;
+}

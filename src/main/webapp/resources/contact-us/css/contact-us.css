@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+#sect-content {
+	height: 200px;
+	padding-right: 350px; 
+	margin-right: 50px; 
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-image: url("../images/bg_s.jpg" );
+}

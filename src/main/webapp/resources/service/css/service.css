@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+#sect-content table tr td {
+	vertical-align: top;
+	padding-right: 20px;
+}

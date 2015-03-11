@@ -1,0 +1,1 @@
+alter table tbl_ref_product_resource modify `filepath` varchar(512) DEFAULT NULL;

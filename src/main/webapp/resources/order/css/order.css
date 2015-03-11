@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+#sect-content input {
+	border: 1px solid black;
+	width: 400px;
+}
+
+#sect-content textarea {
+	border: 1px solid black;
+	width: 400px;
+	height: 100px;
+}
+
+#sect-content .inputtitle {
+	width: 92px;
+}
+
+#sect-content .inputname {
+	width: 150px;
+}
+
+#sect-content .btn {
+	border: 1px solid black;
+	width: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
